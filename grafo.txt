@@ -1,0 +1,46 @@
+NODOS
+yachay_university 0 0
+B 0 3
+C 2 4.5
+D 3.5 6
+E 3 7
+F 5.5 5
+G 6 1.5
+H 6.5 2.5
+I 7.5 6
+J 5.5 6.5
+K 7.5 9
+L 9.5 3.5
+M 7.5 1.5
+N 6.5 0.5
+Quito 8.2 0.5
+
+ARISTAS
+yachay_university B 300 residential
+yachay_university G 618 avenue
+B C 250 residential
+C D 212 residential
+D E 112 residential
+D J 206 residential
+D F 224 avenue
+E J 255 residential
+E K 492 avenue
+F G 354 avenue
+F H 269 residential
+F I 224 avenue
+F J 150 alley
+G H 112 alley
+G M 150 residential
+G N 112 alley
+H I 364 residential
+H L 316 residential
+H M 141 alley
+I J 206 residential
+I K 300 avenue
+I L 320 residential
+J K 320 avenue
+L M 283 residential
+L Quito 327 avenue
+M N 141 alley
+M Quito 122 avenue
+N Quito 170 avenue
